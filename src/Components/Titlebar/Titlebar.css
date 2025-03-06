@@ -1,0 +1,91 @@
+   .titlebar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 5px 15px;
+     background-color: white;
+   }
+
+   .shopName {
+     flex-grow: 1;
+     text-align: center;
+   }
+
+   .shopName h1 {
+     font-size: 30px;
+     margin: 0;
+   }
+
+
+   .titleIcons {
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     gap: 30px;
+
+   }
+
+   .titleIcons img {
+     width: 25px;
+     height: auto;
+     cursor: pointer;
+   }
+
+
+   form {
+     display: flex;
+     align-items: center;
+   }
+
+   form input {
+     width: 120px;
+     font-size: 14px;
+   }
+
+   form button img {
+     width: 20px;
+     height: 20px;
+   }
+
+   /*-------------------------- Media Queries--------------------------- */
+   @media (max-width: 575px) {
+
+     .search {
+       width: 63px;
+       padding: 5px;
+     }
+
+     .shopName h1 {
+       font-size: 16px;
+     }
+
+     .titleIcons {
+       gap: 10px;
+       margin: 0 15px;
+     }
+
+     .titleIcons img {
+       width: 18px;
+       padding: 0 3px;
+     }
+
+     form input {
+       width: 90px;
+     }
+
+     form button img {
+       width: 16px;
+       height: 16px;
+     }
+   }
+
+   @media(max-width:750px) {
+     .search {
+       width: 63px;
+       padding: 0;
+     }
+
+     .btn img {
+       width: 15px;
+     }
+   }

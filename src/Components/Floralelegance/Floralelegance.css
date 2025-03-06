@@ -1,0 +1,59 @@
+.floral {
+  background-color: #f9f9f9;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.floral .container {
+  max-width: 1200px;
+}
+
+.floral img {
+  max-height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.floral h2 {
+
+  font-size: 1.8rem;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.floral p {
+
+  font-size: 1.2rem;
+  color: #555;
+
+}
+
+.floral:hover {
+  transform: scale(1.04);
+  transition: 0.5s ease;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.floral img:hover {
+  transform: scale(1.04);
+  transition: 0.5s ease;
+  box-shadow: 6px 6px 20px rgba(240, 9, 9, 0.3);
+}
+
+/*--------------------------- media query--------------------------------------- */
+@media(max-width:570px) {
+  .right-text h2 {
+    font-size: 20px;
+    margin-top: 15px;
+
+  }
+
+  .right-text p {
+    font-size: 15px;
+    margin-top: 3px;
+  }
+
+
+}
